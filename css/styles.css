@@ -41,12 +41,27 @@ h4 {
   color: var(--dark-color);
   text-align: center;
 }
+
+.about-section {
+  padding: 120px 20px;
+}
+.about-section-content {
+  margin: 30px;
+}
+.about-section h3 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
 p {
   color: var(--dark-color);
   font-weight: normal;
   font-size: 16px;
   line-height: 1.7;
   text-align: center;
+}
+.about-section p {
+  font-size: 18px;
 }
 .hero {
   background: var(--dark-color);
@@ -97,7 +112,7 @@ p {
   h1,
   h2 {
     font-size: 46px;
-    line-height: 1.5;
+    line-height: 56px;
   }
   h4 {
     font-size: 42px;
@@ -105,5 +120,9 @@ p {
   .project-title {
     padding: 0;
     text-align: center;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
