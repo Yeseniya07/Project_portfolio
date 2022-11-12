@@ -24,6 +24,32 @@
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/"
+          ><img
+            src="/images/photo.jpg"
+            class="photo d-none d-lg-block img-fluid"
+            alt=""
+        /></a>
+
+        <ul>
+          <li class="active">
+            <a href="/">HOME</a>
+          </li>
+          <li>
+            <a href="/projects.html">MY PROJECTS</a>
+          </li>
+          <li>
+            <a href="/about.html">ABOUT ME</a>
+          </li>
+          <li>
+            <a href="/contacts.html">CONTACT ME</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="hero">
       <h1 class="mb-5">I'm a Front-end developer, based in Europe, DE</h1>
 
@@ -33,10 +59,12 @@
       </p>
 
       <div class="d-flex justify-content-center">
-        <a href="/contacts.html" class="btn btn-branding mb-5 me-3"
+        <a href="/contacts.html" class="btn btn-branding mb-5 ms-3 me-3"
           >Contact me</a
         >
-        <a href="/about.html" class="btn btn-branding mb-5 ms-3">About me</a>
+        <a href="/about.html" class="btn btn-branding mb-5 ms-3 me-3"
+          >About me</a
+        >
       </div>
     </div>
 
@@ -50,7 +78,7 @@
         <div class="col">
           <div class="project-title">
             <h4 class="mb-3">Weather App</h4>
-            <p class="mb-4">Built with HTML, CSS, JavaScript</p>
+            <p class="mb-4 text-center">Built with HTML, CSS, JavaScript</p>
             <div class="d-flex justify-content-center">
               <a href="http://" class="btn btn-project">View details</a>
             </div>
@@ -62,7 +90,7 @@
         <div class="col">
           <div class="project-title">
             <h4 class="mb-3">Landing Page</h4>
-            <p class="mb-4">Built with HTML, CSS</p>
+            <p class="mb-4 text-center">Built with HTML, CSS</p>
             <div class="d-flex justify-content-center">
               <a href="http://" class="btn btn-project">View details</a>
             </div>
@@ -80,7 +108,7 @@
         <div class="col">
           <div class="project-title">
             <h4 class="mb-3">Dictionary App</h4>
-            <p class="mb-4">
+            <p class="mb-4 text-center">
               Built with HTML, CSS, JavaScript, Bootstrap, React
             </p>
             <div class="d-flex justify-content-center">

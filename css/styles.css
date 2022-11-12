@@ -122,11 +122,39 @@ p {
 .project-title {
   padding: 120px 60px;
 }
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 60px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--dark-color);
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--dark-color);
+  opacity: 60%;
+}
+.photo {
+  max-height: 64px;
+  border-radius: 50%;
+}
 @media (max-width: 960px) {
   h1,
   h2 {
     font-size: 46px;
-    line-height: 56px;
+    line-height: 74px;
   }
   h4 {
     font-size: 42px;
@@ -138,5 +166,8 @@ p {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+  nav a {
+    font-size: 12px;
   }
 }
